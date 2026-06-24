@@ -1,13 +1,13 @@
 
 import './App.css'
-import Footer from './Components/Footer'
 
 function App() {
 
   return (
     <div>
-
-      <Footer></Footer>
+      <h1 >
+        Vite + React
+      </h1>
     </div>
   )
 }
