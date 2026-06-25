@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      <h1 >
+      <h1 className='text-center text-8xl font-bold text-blue-500'>
         Vite + React
       </h1>
     </div>
