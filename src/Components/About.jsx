@@ -1,15 +1,5 @@
 import React, { useEffect } from "react";
-import emi from "../../src/assets/emi.png";
-import emi1 from "../../src/assets/emii.png";
-import emi2 from "../../src/assets/emiii.png";
-import img from "../../src/assets/Emilia.jfif"
-import img1 from "../../src/assets/Heroo.jpg";
-import img2 from "../../src/assets/aboutimg1.png";
-import img3 from "../../src/assets/aboutimg2.png";
-import img4 from "../../src/assets/aboutimg3.png";
-import img6 from "../../src/assets/aboutimg6.webp";
-import img7 from "../../src/assets/aboutimg7.png";
-import img8 from "../../src/assets/aboutimg8.png";
+import img from "../assets/hero.png";
 import { Link } from "react-router";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -57,12 +47,13 @@ const About = () => {
             className="grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4 md:block hidden space-y-2"
           >
             <img
-              src={emi1}
+              src={img}
               alt=""
               className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-xl"
             />
             <img
-              src={emi}
+              src={img}
+
               alt=""
               className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-xl"
             />
@@ -104,13 +95,13 @@ const About = () => {
               className=" flex justify-center items-center "
             >
               <img
-                src={emi}
+                src={img}
                 alt=""
                 className=" lg:w-full  shadow-xl  top-6 left-6 md:left-0 border-4 hover:scale-105 transition"
               />
 
               {/* <img
-                src={emi2}
+                src={img}
                 alt=""
                 className="w-52 md:w-60 lg:w-68 rounded-2xl shadow-2xl rotate-[6deg]  z-10 border-4 border-white hover:scale-105 transition"
               /> */}
@@ -156,7 +147,7 @@ const About = () => {
             className="overflow-hidden rounded-2xl"
           >
             <img
-              src={img7}
+              src={img}
               alt=""
               className="w-full md:h-[600px] object-cover hover:scale-110 transition duration-500"
             />
@@ -169,7 +160,7 @@ const About = () => {
           >
             <div className="overflow-hidden rounded-2xl">
               <img
-                src={img6}
+                src={img}
                 alt=""
                 className="w-full h-full object-cover hover:scale-110 transition duration-500"
               />
@@ -177,7 +168,7 @@ const About = () => {
 
             <div className="overflow-hidden rounded-2xl">
               <img
-                src={img4}
+                src={img}
                 alt=""
                 className="w-full h-full object-cover hover:scale-110 transition duration-500"
               />
@@ -185,7 +176,7 @@ const About = () => {
 
             <div className="overflow-hidden rounded-2xl">
               <img
-                src={img3}
+                src={img}
                 alt=""
                 className="w-full h-full object-cover hover:scale-110 transition duration-500"
               />
@@ -198,7 +189,7 @@ const About = () => {
             className="overflow-hidden rounded-2xl"
           >
             <img
-              src={img8}
+              src={img}
               alt=""
               className="w-full h-full object-cover hover:scale-110 transition duration-500"
             />
