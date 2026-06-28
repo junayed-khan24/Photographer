@@ -1,10 +1,18 @@
 import React from 'react';
+import Testimonials from './Testimonials';
+import FeaturedShots from './FeaturedShots';
+import Services from './Services';
+import Header from './Header';
+import Stats from './Stats';
 
 const Home = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold mb-4 text-center">Home</h1>
-            <p>Welcome to the Home page!</p>
+            <Header></Header>
+            <Stats></Stats>
+            <Services></Services>           
+             <FeaturedShots></FeaturedShots>
+           <Testimonials></Testimonials>
         </div>
     );
 };
