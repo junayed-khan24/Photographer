@@ -4,7 +4,7 @@ import Layout from "../layout/Layout";
 import About from "../Components/About";
 import Contact from "../Components/Contact";
 import Blog from "../Components/Blog";
-import BookingForm from "../Components/Bookingform";
+import BookingForm from "../Components/BookingForm";
 
 const router = createBrowserRouter([
   {
