@@ -7,7 +7,9 @@ import { Route, RouterProvider } from 'react-router'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <div className="poppins-thin">
     <RouterProvider router={router} />
+    </div>
   </StrictMode>,
 )
 

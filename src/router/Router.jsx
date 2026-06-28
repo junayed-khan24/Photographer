@@ -30,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/booking",
         element: <BookingForm></BookingForm>
+      },
+      {
+        path: "/portfolio",
+        element: <div className=" text-center text-black text-8xl font-bold py-16">Portfolio Page here</div>
       }
     ],
   },
