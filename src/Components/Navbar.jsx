@@ -22,8 +22,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
-          <NavLink to="/" className="text-3xl font-normal text-black">
-            Emilia Rose
+          <NavLink to="/" className="text-2xl md:text-3xl font-extrabold text-black">
+            সাকিব হাসান
           </NavLink>
 
           {/* Desktop Menu */}

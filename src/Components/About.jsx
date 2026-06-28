@@ -16,21 +16,24 @@ const About = () => {
   return (
     <div className="bg-base-100 w-full min-h-screen pt-12 md:pt-24">
       <div className="max-w-7xl mx-auto px-4 py-10 lg:py-16">
-        
-        {/* Heading */}
-        <h2
-          data-aos="fade-right"
-          className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
-        >
-          <span className="text-primary">I’M</span> EMILIA ROSE
-        </h2>
+{/* Heading */}
+<h2
+  data-aos="fade-right"
+  className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
+>
+  <span className="text-primary">আমি</span> সাকিব হাসান
+</h2>
 
-        <p
-          data-aos="fade-left"
-          className="font-normal font-regular text-secondary text-sm md:text-xl sm:text-lg mb-10 max-w-3xl"
-        >
-          A passionate photographer with an eye for honest, powerful moments
-        </p>
+<p
+  data-aos="fade-left"
+  className="font-normal text-secondary text-sm md:text-xl sm:text-lg mb-10 max-w-3xl"
+>
+  আমি একজন পেশাদার ফটোগ্রাফার। প্রতিটি ছবির মাধ্যমে মানুষের অনুভূতি,
+  ভালোবাসা ও জীবনের সবচেয়ে মূল্যবান মুহূর্তগুলোকে চিরস্মরণীয় করে তোলাই
+  আমার লক্ষ্য।
+</p>
+```
+
 
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
