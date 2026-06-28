@@ -1,21 +1,22 @@
+
 import React from "react";
 
 import user1 from "../assets/hero.png";
 
 const testimonials = [
   {
-    text: "The way you captured our day is beyond words. Every photo is a treasure.",
-    name: "Rachael and Tim",
+    text: "আমাদের জীবনের সবচেয়ে সুন্দর দিনটিকে আপনি যেভাবে ছবিতে ধরে রেখেছেন, তা সত্যিই অসাধারণ। প্রতিটি ছবি আমাদের কাছে অমূল্য স্মৃতি হয়ে থাকবে।",
+    name: "রাফি ও তানহা",
     img: user1,
   },
   {
-    text: "Professional, patient, and incredibly talented.",
-    name: "Agency Lead, Numa Studio",
+    text: "অত্যন্ত দক্ষ, আন্তরিক এবং পেশাদার একজন ফটোগ্রাফার। পুরো ফটোশুটের অভিজ্ঞতা ছিল দারুণ উপভোগ্য।",
+    name: "নোভা স্টুডিও",
     img: user1,
   },
   {
-    text: "My portraits always come out stunning when it's handled by you.",
-    name: "Mary Jane",
+    text: "প্রতিবারই আমার ছবিগুলো এত সুন্দর আসে যে আমি মুগ্ধ হয়ে যাই। আপনার কাজের মান সত্যিই প্রশংসনীয়।",
+    name: "মারিয়া ইসলাম",
     img: user1,
   },
 ];
@@ -28,18 +29,18 @@ const Testimonials = () => {
         {/* Title */}
         <div className="text-center mb-14">
           <h2 className="text-2xl md:text-4xl font-normal font-regular mb-3 text-[#000000]">
-            Hear from my past clients
+            আমাদের সম্মানিত ক্লায়েন্টদের অভিমত
           </h2>
 
-          <p className="text-secondary text-center font-regular font-normal text-sm md:text-xl sm:text-lg mb-10 ">
-            Real people, real stories. Spreading excellence with every shot.
+          <p className="text-secondary text-center font-regular font-normal text-sm md:text-xl sm:text-lg mb-10">
+            আমাদের ক্লায়েন্টদের সন্তুষ্টিই আমাদের সবচেয়ে বড় অর্জন। তাদের বাস্তব অভিজ্ঞতা ও আন্তরিক মতামতই আমাদের কাজের অনুপ্রেরণা।
           </p>
         </div>
 
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-          {testimonials.map((item, index ) => (
+          {testimonials.map((item, index) => (
             <div
               key={index}
               className="bg-base-100 rounded-2xl border border-gray-200 p-8 shadow-md hover:shadow-xl transition duration-300 flex flex-col justify-between min-h-[200px]"
@@ -50,7 +51,7 @@ const Testimonials = () => {
               </p>
 
               {/* User */}
-              <div className="flex items-center gap-3 ">
+              <div className="flex items-center gap-3">
                 <img
                   src={item.img}
                   alt={item.name}
