@@ -9,22 +9,23 @@ import "aos/dist/aos.css";
 
 const services = [
   {
-    title: "Portrait Photography",
+    title: "পোর্ট্রেট ফটোগ্রাফি",
     img: img1,
     rotate: "-rotate-3",
   },
   {
-    title: "Event & Wedding Coverage",
+    title: "ইভেন্ট ও ওয়েডিং কভারেজ",
     img: img,
     rotate: "rotate-1",
   },
   {
-    title: "Editorial & Brand Shoots",
+    title: "এডিটোরিয়াল ও ব্র্যান্ড শুট",
     img: img2,
     rotate: "-rotate-2",
   },
+  
   {
-    title: "Image Retouching & Editing",
+    title: "ইমেজ রিটাচিং ও এডিটিং",
     img: img3,
     rotate: "rotate-3",
   },
@@ -46,7 +47,7 @@ const Services = () => {
         {/* Title */}
         <div className="text-center mb-12">
           <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-normal font-regular">
-            What I do
+            আমাদের সেবাসমূহ
           </h2>
 
           <p
@@ -54,7 +55,7 @@ const Services = () => {
             data-aos-delay="200"
             className="mb-14 max-w-2xl mx-auto text-1xl md:text-2xl font-normal text-neutral mt-0 md:mt-4"
           >
-            Turning everyday moments into lasting art. One frame at a time.
+            আমরা বিভিন্ন ধরনের ফটোগ্রাফি ও ভিডিওগ্রাফি সেবা প্রদান করি। 
           </p>
         </div>
 

@@ -4,14 +4,16 @@ import FeaturedShots from './FeaturedShots';
 import Services from './Services';
 import Header from './Header';
 import Stats from './Stats';
+import BookingForm from './BookingForm';
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Stats></Stats>
             <Services></Services>           
+            <Stats></Stats>
              <FeaturedShots></FeaturedShots>
+             <BookingForm></BookingForm>
            <Testimonials></Testimonials>
         </div>
     );
