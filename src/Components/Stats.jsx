@@ -9,11 +9,11 @@ return (
     <>
     <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32">
       {/* Title */}
-    <h2 className="text-3xl md:text-4xl font-regular font-normal mb-2">
+    <h2 className="text-3xl text-center md:text-4xl font-regular font-normal mb-2">
       আমার পরিসংখ্যান
     </h2>
 
-    <p className=" mb-14 max-w-2xl mx-auto  text-1xl md:text-2xl font-normal text-neutral mt-0 md:mt-4">
+    <p className=" mb-14 max-w-2xl mx-auto text-center  text-1xl md:text-2xl font-normal text-neutral mt-0 md:mt-4">
       প্রতিটি ছবি একটি গল্প বলে। এই সংখ্যাগুলো দেখায় আমি কতটা নিষ্ঠার সাথে সেই গল্পগুলো ধারণ করি।
     </p>
 

@@ -3,11 +3,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 
-import port1 from "../assets/hero.png";
-import port2 from "../assets/hero.png";
-import port3 from "../assets/hero.png";
-import port4 from "../assets/hero.png";
-import port5 from "../assets/hero.png";
+import port1 from "../assets/portrate1.jpg";
+import port2 from "../assets/portrate2.jpg";
+import port3 from "../assets/portrate3.jpg";
+import port4 from "../assets/portrate4.jpg";
+import port5 from "../assets/portrate5.jpg";
 import wedd from "../assets/hero.png";
 import wedd2 from "../assets/hero.png";
 import wedd3 from "../assets/hero.png";
@@ -86,7 +86,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-       <Link to="/portrait" className="flex justify-center mt-6">
+       <Link to="" className="flex justify-center mt-6">
       <button className="bg-[#000000] text-[#ffffff] py-2 px-6 rounded-lg hover:bg-[#333333] transition duration-300">
        আরও দেখুন
       </button>
@@ -145,7 +145,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <Link to="/wedding" className="flex justify-center mt-6">
+      <Link to="/" className="flex justify-center mt-6">
       <button className="bg-[#000000] text-[#ffffff] py-2 px-6 rounded-lg hover:bg-[#333333] transition duration-300">
         আরও দেখুন
       </button>
@@ -201,7 +201,7 @@ const Portfolio = () => {
           />
         </div>
       </div>
-      <Link to="/nature" className="flex justify-center mt-6">
+      <Link to="" className="flex justify-center mt-6">
       <button className="bg-[#000000] text-[#ffffff] py-2 px-6 rounded-lg hover:bg-[#333333] transition duration-300">
         আরও দেখুন
       </button>
