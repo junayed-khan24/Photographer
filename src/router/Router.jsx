@@ -5,6 +5,7 @@ import About from "../Components/About";
 import Contact from "../Components/Contact";
 import Blog from "../Components/Blog";
 import BookingForm from "../Components/BookingForm";
+import Portfolio from "../Components/Portfolio";
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/portfolio",
-        element: <div className=" text-center text-black text-8xl font-bold py-16">Portfolio Page here</div>
+        element: <Portfolio></Portfolio>
       }
     ],
   },
