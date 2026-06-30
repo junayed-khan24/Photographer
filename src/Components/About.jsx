@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import img from "../assets/hero.png";
+import img from "../assets/photographer.jpg";
+import im2 from "../assets/photographerr.jpg"
 import { Link } from "react-router";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -27,8 +28,8 @@ const About = () => {
         />
 
         <div data-aos="fade-up" className="hidden md:block space-y-2">
-          <img src={img} alt="" className="w-full h-48 object-cover rounded-2xl shadow-xl" />
-          <img src={img} alt="" className="w-full h-48 object-cover rounded-2xl shadow-xl" />
+          <img src={im2} alt="" className="w-full h-48 object-cover rounded-2xl shadow-xl" />
+          <img src={im2} alt="" className="w-full h-48 object-cover rounded-2xl shadow-xl" />
         </div>
       </div>
 
