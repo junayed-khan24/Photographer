@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import img from "../assets/hero.png";
-import img1 from "../assets/hero.png";
-import img2 from "../assets/hero.png";
-import img3 from "../assets/hero.png";
+import img from "../assets/portrate2.jpg";
+import img1 from "../assets/wadding.jfif";
+import img2 from "../assets/brand.jfif";
+import img3 from "../assets/edite.webp";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,12 +10,12 @@ import "aos/dist/aos.css";
 const services = [
   {
     title: "পোর্ট্রেট ফটোগ্রাফি",
-    img: img1,
+    img: img,
     rotate: "-rotate-3",
   },
   {
     title: "ইভেন্ট ও ওয়েডিং কভারেজ",
-    img: img,
+    img: img1,
     rotate: "rotate-1",
   },
   {
